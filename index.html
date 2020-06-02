@@ -5,23 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Embedding Images and Video</title>
     <link rel="stylesheet" href="style.css">
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div class="navbar-logo">
-            <img src="./images/YouTube_Logo.png" alt="YouTube logo image">
+    <nav id="navbar">
+        <div class="navbar-img">
+            <a href="#"><img src="./images/YouTube_Logo.png" alt="YouTube logo image"></a>
         </div>
         <div class="navbar-search">
-            <input type="text" name="search" placeholder="Search">
-            <button class="search-btn"><i class="fas fa-search"></button>
+            <input type="text" name="search" placeholder="What's in your mind!">
+            <button class="search-btn">Search</button>
         </div>
         <div class="avatar-images">
-            <img src="./images/video-add.png" alt="a Video add icon">
-            <img src="./images/Apps.png" alt="an app panel icon">
-            <img src="./images/notification-bell.png" alt="a notification bell icon">
+            <a href="#"><img src="./images/video-add.png" alt="a Video add icon"></a>
+            <a href="#"><img src="./images/Apps.png" alt="an app panel icon"></a>
+            <a href="#"><img src="./images/notification-bell.png" alt="a notification bell icon"></a>
         </div>
     </nav>
+    <section>
+        <div class="embed-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="desc-video">
+            <h3>Embed videos and playlists</h3>
+            <p>218,047 views•May 13, 2016</p>
+        </div>
+        <div class="channel">
+            <img src="./images/youtube-little-icon.jpg" alt="youtube little icon">
+            <h5>TeamYouTube [Help]</h5>
+            <p>7.89M subscribers</p>
+            <button class="sub-btn">SUBSCRIBE</button>
+            <p>To learn more please visit the YouTube Help Center: https://www.youtube.com/help</p>
+            <button>SHOW MORE</button>
+        </div>
+    </section>
 </body>
 </html>

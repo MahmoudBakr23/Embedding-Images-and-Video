@@ -1,0 +1,31 @@
+#navbar{
+    position: sticky;
+    display: flex;
+    overflow: hidden;
+    background-color: bisque;
+}
+.navbar-img img{
+    width: 7vw;
+    height: 7vh;
+    margin: 0 20px;
+}
+.avatar-images{
+    display: flex;
+    overflow: hidden;
+}
+.avatar-images img{
+    margin: 5px 20px;
+    width: 3vw;
+    height: 5vh;
+}
+.navbar-search{
+    margin: auto;
+}
+.navbar-search input{
+    height: 5vh;
+    width: 20vw;
+}
+.search-btn{
+    margin: auto;
+    height: 5.9vh;
+}
