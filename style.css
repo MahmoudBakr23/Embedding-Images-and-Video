@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 #navbar{
     position: sticky;
     display: flex;
@@ -28,4 +32,65 @@
 .search-btn{
     margin: auto;
     height: 5.9vh;
+}
+.video-player{
+    width: 40vw;
+    margin: 30px 120px;
+    float: left;
+}
+.embed-video{
+    width: auto;
+    overflow: hidden;
+}
+.desc-video{
+    /* width: 50%; */
+    overflow: hidden;
+    text-align: left;
+}
+.desc-video img{
+    width: 20px;
+    height: 20px;
+    padding: 0px 20px;
+}
+.like{
+    float: right;
+}
+.dislike{
+    float: right;
+    margin-top: -5px;
+}
+.channel{
+    width: 40vw;
+    overflow: hidden;
+    background-color: gray;
+}
+.channel img{
+    margin: 5px 10px;
+    float: left;
+}
+.channel p{
+    margin-left: 70px;
+    margin-top: -25px;
+    font-size: .8em;
+}
+.sub-btn{
+    float: right;
+    margin-top: -50px;
+    margin-right: 50px;
+    font-size: larger;
+    background-color: red;
+    border: none;
+    padding: 7px 7px;
+}
+.channel2{
+    text-align: left;
+}
+.sidebar{
+    width: 40vw;
+    margin: 30px 0px;
+    float: left;
+}
+.sidebar div img{
+    width: 168px;
+    height: 94px;
 }
