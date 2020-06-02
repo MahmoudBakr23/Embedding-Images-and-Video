@@ -2,7 +2,7 @@
 
 Embedding Images and Video [Collaborative project]
 
-
+![screenshot](./images/screenshot.png)
 
 **This is a webpage which is similar to Youtube video player page.**
 **The page is embedded with a Youtube video, Youtube logo, images thumbnails for the recommendation videos.**
