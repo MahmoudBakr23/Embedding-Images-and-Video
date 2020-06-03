@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
-#navbar{
+nav{
     position: sticky;
     display: flex;
     overflow: hidden;
